@@ -61,7 +61,7 @@ const Clinic = () => {
                 />
               </div>
               <div className="d-grid gap-2">
-                <button className="btn btn-primary rounded-pill" type="button">
+                <button className="btn btn-primary rounded-pill" type="button" onClick={switchToSetUp}>
                   CREATE ACCOUNT
                 </button>
               </div>

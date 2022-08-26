@@ -1,16 +1,18 @@
 import React from "react";
 import { useSelector } from "react-redux";
-// import ClinicalInterest from "../../container/signUp/clinical/interest";
-// import SetUpClinical from "../../container/signUp/clinical/setUpClinical";
 import Clinic from "./clinical";
+import Interest from "./clinical/interest";
+import Pace from "./clinical/pace";
+import TermsAndConditions from "./clinical/tc";
 
 const SignUpContainer = () => {
   const { level } = useSelector(({ signUp }) => signUp);
   return (
     <div>
-      {/* {level === "create" && <Clinic />}
-      {level === "setUp" && <SetUpClinical />}
-      {level === "interest" && <ClinicalInterest />} */}
+      {level === "create" && <Clinic />}
+      {level === "setUp" && <Pace />}
+      {level === "interest" && <Interest />}
+      {level === "tc" && <TermsAndConditions />}
     </div>
   );
 };
