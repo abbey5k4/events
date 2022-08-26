@@ -1,6 +1,14 @@
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Head from "next/head";
+import { Provider } from "react-redux";
+import { createStore, applyMiddleware } from "redux";
+import thunk from "redux-thunk";
+import { createLogger } from "redux-logger";
+import appReducer from '../src/store/reducers';
+
+const logger = createLogger();
+const store = createStore(appReducer, applyMiddleware(thunk, logger));
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -10,7 +18,9 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="Pace Events" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Provider store={store}>
       <Component {...pageProps} />
+    </Provider>
     </div>
   );
 }

@@ -1,0 +1,110 @@
+.bgImgDiv {
+    height: 90vh;
+    background: url("/assets/pxl.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-left: 200px;
+  }
+  
+  .formCard {
+    width: 30%;
+  }
+  
+  .textDiv {
+    padding: 20px;
+  }
+  
+  .textDiv h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #3e3e3e;
+  }
+  
+  .textDiv p {
+    color: #3e3e3e;
+    font-size: 12px;
+  }
+  
+  .textDiv a {
+    font-size: 12px;
+    color: #005cd8;
+    margin-left: 5px;
+  }
+  
+  .activeBtn {
+    background-color: #005cd8;
+    border: 1px solid #005cd8;
+    border-radius: 10px;
+    padding: 5px 20px 40px 20px;
+    color: #fff;
+    text-align: center;
+    z-index: 100;
+    position: relative;
+  }
+  
+  .activeBtns {
+    background-color: #005cd8;
+    border: 1px solid #005cd8;
+    border-radius: 10px;
+    padding: 5px 20px 40px 20px;
+    color: #fff;
+    text-align: center;
+    z-index: 100;
+    position: relative;
+    margin-left: 20px;
+  }
+
+  .cardBodyyy {
+    margin-top: -82px !important;
+    background: #EEF3FB;
+    z-index: 999;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .rightBtn {
+    margin-right: 20px;
+    margin-top: -40px;
+    border: none;
+    background-color: transparent;
+    color: black;
+  }
+
+.pFooter {
+    width: 70%;
+    color: #3e3e3e;
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  
+  .social {
+    color: #3e3e3e;
+    font-size: 12px;
+  }
+  
+  .iconContainer {
+    padding: 6px 10px;
+    border: 1px solid #005cd8;
+    border-radius: 50%;
+  }
+  
+  .iconContainer:not(:first-child) {
+    margin-left: 10px;
+    color: #005cd8;
+  }
+  
+  .btnP {
+      padding-right: 10px !important;
+  }
+  
+  
+  @media screen and (max-width: 500px) {
+    .bgImgDiv {
+      padding: 10px;
+    }
+  
+    .formCard {
+      width: 100%;
+    }
+  }
+  
