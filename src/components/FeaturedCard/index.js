@@ -7,7 +7,7 @@ const FeaturedCard = () => {
   const [bookmark, setBookmark] = useState(false);
 
   return (
-    <div className="py-3">
+    <div className="pt-1 pb-3">
       <div className={`card ${styles.cardBg}`}>
         <div className="card-body">
           <div className="card-title">

@@ -1,0 +1,52 @@
+.heroSection {
+  background: linear-gradient(
+      90deg,
+      rgba(64, 81, 167, 1),
+      rgba(74, 74, 193, 1),
+      rgba(248, 254, 255, 1)
+    ),
+    url("../../../public/assets/pxl.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.textContainer {
+  width: 50%;
+}
+.heroText {
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: left;
+  color: white;
+  padding-top: 120px;
+  padding-left: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .textContainer {
+    width: 90%;
+  }
+  .heroText {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: left;
+    color: white;
+    padding-top: 120px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  .textContainer {
+    width: 50%;
+  }
+  .heroText {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: left;
+    color: white;
+    padding-top: 150px;
+    padding-left: 30px;
+  }
+}
