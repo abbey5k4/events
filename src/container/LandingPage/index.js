@@ -31,7 +31,7 @@ const LandingPageContainer = () => {
   var settings = {
     dots: false,
     infinite: false,
-    speed: 10000,
+    speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 4,
