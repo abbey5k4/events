@@ -28,27 +28,61 @@ import styles from "./index.module.css";
 // }
 
 const LandingPageContainer = () => {
-//   const settings = {
-//     dots: false,
-//     infinite: true,
-//     speed: 1500,
-//     slidesToShow: 2,
-//     slidesToScroll: 1,
-//     arrows: true,
-//     nextArrow: <SampleNextArrow />,
-//     prevArrow: <SamplePrevArrow />,
-//     responsive: [
-//       {
-//         breakpoint: 880,
-//         settings: {
-//           slidesToShow: 1,
-//           slidesToScroll: 1,
-//           initialSlide: 1,
-//           arrows: false,
-//         },
-//       },
-//     ],
-//   };
+  var settings = {
+    dots: false,
+    infinite: false,
+    speed: 10000,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    initialSlide: 4,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+  //   const settings = {
+  //     dots: false,
+  //     infinite: true,
+  //     speed: 1500,
+  //     slidesToShow: 2,
+  //     slidesToScroll: 1,
+  //     arrows: true,
+  //     nextArrow: <SampleNextArrow />,
+  //     prevArrow: <SamplePrevArrow />,
+  //     responsive: [
+  //       {
+  //         breakpoint: 880,
+  //         settings: {
+  //           slidesToShow: 1,
+  //           slidesToScroll: 1,
+  //           initialSlide: 1,
+  //           arrows: false,
+  //         },
+  //       },
+  //     ],
+  //   };
 
   return (
     <div>
@@ -64,20 +98,35 @@ const LandingPageContainer = () => {
 
       <div className="container mt-5">
         <h5 className="fw-bold">Featured Events</h5>
-        <div className="row">
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+        <Slider {...settings}>
+          <div>
             <FeaturedCard />
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+          <div>
             <FeaturedCard />
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+          <div>
             <FeaturedCard />
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+          <div>
             <FeaturedCard />
           </div>
-        </div>
+          <div>
+            <FeaturedCard />
+          </div>
+          <div>
+            <FeaturedCard />
+          </div>
+          <div>
+            <FeaturedCard />
+          </div>
+          <div>
+            <FeaturedCard />
+          </div>
+          <div>
+            <FeaturedCard />
+          </div>
+        </Slider>
         <hr />
       </div>
 

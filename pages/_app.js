@@ -7,6 +7,9 @@ import thunk from "redux-thunk";
 import { createLogger } from "redux-logger";
 import appReducer from '../src/store/reducers';
 
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 const logger = createLogger();
 const store = createStore(appReducer, applyMiddleware(thunk, logger));
 

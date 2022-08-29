@@ -13,7 +13,7 @@ const Form = ({ switchToCreate, switchToInterest }) => {
           <div className="form-group">
             <label>First Name</label>
             <input
-              className="form-control"
+              className="form-control form-control-lg"
               type="text"
               placeholder="Enter your first name"
               aria-label="default input example"
@@ -24,7 +24,7 @@ const Form = ({ switchToCreate, switchToInterest }) => {
           <div className="form-group">
             <label>Last Name</label>
             <input
-              className="form-control"
+              className="form-control form-control-lg"
               type="text"
               placeholder="Enter your last name"
               aria-label="default input example"
@@ -46,7 +46,7 @@ const Form = ({ switchToCreate, switchToInterest }) => {
           <div className="form-group">
             <label>Date of birth</label>
             <input
-              className="form-control"
+              className="form-control form-control-lg"
               type="date"
               placeholder="Enter your date of birth"
               aria-label="default input example"
@@ -57,7 +57,7 @@ const Form = ({ switchToCreate, switchToInterest }) => {
           <div className="form-group">
             <label>Phone</label>
             <input
-              className="form-control"
+              className="form-control form-control-lg"
               type="phone"
               placeholder="Enter your phone number"
               aria-label="default input example"
@@ -68,7 +68,7 @@ const Form = ({ switchToCreate, switchToInterest }) => {
           <div className="form-group">
             <label>Website</label>
             <input
-              className="form-control"
+              className="form-control form-control-lg"
               type="text"
               placeholder="Enter your website address"
               aria-label="default input example"
@@ -79,7 +79,7 @@ const Form = ({ switchToCreate, switchToInterest }) => {
           <div className="form-group">
             <label>Twitter</label>
             <input
-              className="form-control"
+              className="form-control form-control-lg"
               type="text"
               placeholder="Enter your Twitter username"
               aria-label="default input example"
@@ -91,7 +91,7 @@ const Form = ({ switchToCreate, switchToInterest }) => {
           <div className="form-group">
             <label>LinkedIn</label>
             <input
-              className="form-control"
+              className="form-control form-control-lg"
               type="text"
               placeholder="Enter your LinkedIn address"
               aria-label="default input example"
@@ -103,7 +103,7 @@ const Form = ({ switchToCreate, switchToInterest }) => {
           <div className="form-group">
             <label>Hospital Address</label>
             <input
-              className="form-control"
+              className="form-control form-control-lg"
               type="text"
               placeholder="Enter your address"
               aria-label="default input example"
@@ -115,7 +115,7 @@ const Form = ({ switchToCreate, switchToInterest }) => {
           <div className="form-group">
             <label>Create password</label>
             <input
-              className="form-control"
+              className="form-control form-control-lg"
               type="text"
               placeholder="Password"
               aria-label="default input example"
@@ -127,7 +127,7 @@ const Form = ({ switchToCreate, switchToInterest }) => {
           <div className="form-group">
             <label>Confirm password</label>
             <input
-              className="form-control"
+              className="form-control form-control-lg"
               type="text"
               placeholder="Confirm password"
               aria-label="default input example"

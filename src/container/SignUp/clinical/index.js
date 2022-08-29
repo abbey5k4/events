@@ -36,6 +36,20 @@ const Clinic = () => {
           </div>
           <div className={`card-body ${styles.cardBodyy}`}>
             <div className="text-center container">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
+                <div className="form-group">
+                  <label>Title</label>
+                  <select
+                    className="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option value="0">Select your title</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
               <div className="form-group">
                 <input
                   className="form-control my-2"
@@ -60,14 +74,28 @@ const Clinic = () => {
                   aria-label="email input example"
                 />
               </div>
+              <div className="form-group">
+                <input
+                  className="form-control my-2"
+                  type="password"
+                  placeholder="Password"
+                  aria-label="password input example"
+                />
+              </div>
               <div className="d-grid gap-2">
-                <button className="btn btn-primary rounded-pill" type="button" onClick={switchToSetUp}>
+                <button
+                  className="btn btn-primary rounded-pill"
+                  type="button"
+                  onClick={switchToSetUp}
+                >
                   CREATE ACCOUNT
                 </button>
               </div>
               <div className="d-flex align-items-center justify-content-center pt-3">
                 <div className="d-flex align-items-center">
-                  <p className={`text-muted mb-0 ${styles.social} ${styles.btnP}`}>
+                  <p
+                    className={`text-muted mb-0 ${styles.social} ${styles.btnP}`}
+                  >
                     Create account with
                   </p>
                 </div>
