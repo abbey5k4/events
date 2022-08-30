@@ -14,7 +14,7 @@ const Form = ({ switchToInterest }) => {
             <div className="form-group">
               <label className={styles.labelStyle}>Title</label> <span className={styles.labelSpanStyle}>*</span>
               <select
-                className="form-select"
+                className="form-select form-select-lg"
                 aria-label="Default select example"
               >
                 <option value="1">Mr</option>
@@ -49,7 +49,7 @@ const Form = ({ switchToInterest }) => {
             <div className="form-group">
               <label className={styles.labelStyle}>SPECIALTY</label>
               <select
-                className="form-select"
+                className="form-select form-select-lg"
                 aria-label="Default select example"
               >
                 <option value="0">Select your Specialty</option>
