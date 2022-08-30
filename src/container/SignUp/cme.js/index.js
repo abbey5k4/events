@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import Footer from "../../../constants/Footer";
 import styles from "./index.module.css";
 import { FcGoogle } from "react-icons/fc";
 import { GrLinkedinOption, GrFacebookOption } from "react-icons/gr";
@@ -8,7 +7,6 @@ import { GrLinkedinOption, GrFacebookOption } from "react-icons/gr";
 const CMEContainer = () => {
   return (
     <div>
-      {/* <Nav displayMode="hidden" /> */}
       <div className={`${styles.bgImgDiv} mt-18 p-30`}>
         <div className={`card ${styles.formCard}`}>
           <div className={styles.textDiv}>
@@ -80,7 +78,6 @@ const CMEContainer = () => {
           </div>
         </div>
       </div>
-      <Footer/>
     </div>
   );
 };

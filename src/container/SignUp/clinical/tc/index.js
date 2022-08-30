@@ -1,26 +1,23 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { signUpAction } from "../../../../store/actions";
-import styles from "../index.module.css"
+import styles from "../index.module.css";
+import TermsAndC from "./terms";
 
 const TermsAndConditions = () => {
   const dispatch = useDispatch();
 
   const switchToCreate = () => {
-    dispatch(signUpAction.setSignUpLevel("create"));
+    dispatch(signUpAction.setSignUpLevel("interest"));
   };
 
-  // const switchToInterest = () => {
-  //   dispatch(signUpAction.setSignUpLevel("interest"));
-  // };
   return (
     <div>
       <div className={`row ${styles.styleTop}`}>
         <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
-          <div className="container">TC</div>
-          <button className={styles.nextBtn} onClick={switchToCreate}>
-            ACCEPT
-          </button>
+          <div className="container">
+            <TermsAndC switchToCreate={switchToCreate} />
+          </div>
         </div>
         <div
           className={`col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 ${styles.paceBg}`}

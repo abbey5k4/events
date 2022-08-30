@@ -97,16 +97,24 @@
   padding-right: 10px !important;
 }
 
-.paceHeader {
+.paceHeader, .intHeader {
   width: 50%;
 }
+
+/* .intHeader {
+
+} */
+
+.tcHeader {
+    width: 100%;
+  }
 
 .bgSize {
   width: 80%;
   padding-top: 50px !important;
 }
 
-.paceHeader h1 {
+.paceHeader h1, .tcHeader h1 {
   color: #005cd8;
   font-weight: bold;
   /* font-size: 32px; */
@@ -120,26 +128,27 @@
 }
 
 .centerDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-label.labelStyle, .labelSpanStyle {
-    color: #005cd8;
+label.labelStyle,
+.labelSpanStyle {
+  color: #005cd8;
 }
 
 .nextBtn {
-    background-color: #005cd8 !important ;
-    border: 1px solid #005cd8;
-    outline: 0;
-    border-radius: 25px;
-    padding: 10px 30px;
-  }
+  background-color: #005cd8 !important ;
+  border: 1px solid #005cd8;
+  outline: 0;
+  border-radius: 25px;
+  padding: 10px 30px;
+}
 
-  .styleTop {
-    border-top: 1px solid #3e3e3e;
-  }
+.styleTop {
+  border-top: 1px solid #3e3e3e;
+}
 @media screen and (max-width: 500px) {
   .bgImgDiv {
     padding: 10px;
