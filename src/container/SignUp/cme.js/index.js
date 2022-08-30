@@ -1,10 +1,19 @@
 import Link from "next/link";
 import React from "react";
+import { useDispatch } from "react-redux";
+import { signUpAction } from "../../../store/actions";
 import styles from "./index.module.css";
 import { FcGoogle } from "react-icons/fc";
 import { GrLinkedinOption, GrFacebookOption } from "react-icons/gr";
 
 const CMEContainer = () => {
+
+  const dispatch = useDispatch();
+
+  const switchToPaceTwo = () => {
+    dispatch(signUpAction.setSignUpLevel("paceTwo"));
+  };
+
   return (
     <div>
       <div className={`${styles.bgImgDiv} mt-18 p-30`}>
@@ -44,7 +53,7 @@ const CMEContainer = () => {
                 />
               </div>
               <div className="d-grid gap-2">
-                <button className="btn btn-primary rounded-pill" type="button">
+                <button className="btn btn-primary rounded-pill" type="button" onClick={switchToPaceTwo}>
                   CREATE ACCOUNT
                 </button>
               </div>

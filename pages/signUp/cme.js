@@ -1,12 +1,12 @@
 import React from "react";
-import CMEContainer from "../../src/container/SignUp/cme.js";
+import SignUpTwoContainer from "../../src/container/SignUp/cme.js/switch.js";
 import SignUpLayout from "../../src/layout/signUpLayout.js";
 
 const Cme = () => {
   return (
     <div>
       <SignUpLayout>
-        <CMEContainer />
+        <SignUpTwoContainer />
       </SignUpLayout>
     </div>
   );

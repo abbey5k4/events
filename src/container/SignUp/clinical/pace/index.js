@@ -3,8 +3,6 @@ import { useDispatch } from "react-redux";
 import { signUpAction } from "../../../../store/actions";
 import Form from "./form";
 import styles from "../index.module.css";
-import Image from "next/image";
-import Footer from "../../../../constants/Footer";
 
 const Pace = () => {
   const dispatch = useDispatch();

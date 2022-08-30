@@ -3,10 +3,8 @@ import React from "react";
 import styles from "./index.module.css";
 import { useDispatch } from "react-redux";
 import { signUpAction } from "../../../store/actions";
-import Footer from "../../../constants/Footer";
 import { FcGoogle } from "react-icons/fc";
 import { GrLinkedinOption, GrFacebookOption } from "react-icons/gr";
-import NavigationBar from "../../../constants/Navigation";
 
 const Clinic = () => {
   const dispatch = useDispatch();
