@@ -118,6 +118,24 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.centerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label.labelStyle, .labelSpanStyle {
+    color: #005cd8;
+}
+
+.nextBtn {
+    background-color: #005cd8 !important ;
+    border: 1px solid #005cd8;
+    outline: 0;
+    border-radius: 25px;
+    padding: 10px 30px;
+  }
 @media screen and (max-width: 500px) {
   .bgImgDiv {
     padding: 10px;
