@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "./index.module.css";
 import { CgMenuRightAlt, CgClose } from "react-icons/cg";
+import Image from "next/image";
 
 
 const NavigationBar = () => {
@@ -12,7 +13,7 @@ const NavigationBar = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <h1>LOGO</h1>
+        <Image src="/assets/path2.png" alt="company logo" width={50} height={50} />
       </div>
       <input
         type="text"

@@ -5,6 +5,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import styles from "./index.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -13,9 +14,9 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-              <div className="imgHolder">
+              <div className="imgHolders">
                 {/* <img src={Logo} alt="Logo-img" /> */}
-                <p>Logo</p>
+                <Image src="/assets/path1.png" alt="company logo" width={50} height={50} />
               </div>
             </div>
 
