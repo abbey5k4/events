@@ -23,30 +23,30 @@ const NavigationBar = () => {
         className={styles.inputField}
       />
       <nav className={mobState ? styles.add : styles.remove}>
-        <ul>
+        <ul className={styles.listList}>
           <li>
             <Link href="/">
-              <a>Home</a>
+              <a>HOME</a>
             </Link>
           </li>
           <li>
             <Link href="/about">
-              <a>About</a>
+              <a>ABOUT US</a>
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              <a>Contact Us</a>
+              <a>CONTACT US</a>
             </Link>
           </li>
           <li className={styles.signIn}>
             <Link href="/sign-in">
-              <a>Sign In</a>
+              <a>SIGN IN</a>
             </Link>
           </li>
           <li className={styles.signUp}>
             <Link href="/sign-up">
-              <a>Sign Up</a>
+              <a>SIGN UP</a>
             </Link>
           </li>
         </ul>

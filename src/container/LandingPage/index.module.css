@@ -9,8 +9,9 @@
   height: 60vh;
 }
 
-.textContainer {
+.textContainer h3{
   width: 50%;
+  /* line-height: 70px; */
 }
 .heroText {
   font-size: 48px;
@@ -18,11 +19,11 @@
   text-align: left;
   color: white;
   padding-top: 120px;
-  padding-left: 100px;
+  /* padding-left: 100px; */
 }
 
 @media screen and (max-width: 500px) {
-  .textContainer {
+  .textContainer h3{
     width: 90%;
   }
   .heroText {
@@ -36,7 +37,7 @@
 }
 
 @media screen and (max-width: 1024px) and (min-width: 600px) {
-  .textContainer {
+  .textContainer h3{
     width: 50%;
   }
   .heroText {

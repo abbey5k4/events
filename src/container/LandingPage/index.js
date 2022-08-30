@@ -44,13 +44,13 @@ const LandingPageContainer = () => {
 
   return (
     <div>
-      <div className="container">
+      <section className="container">
         <NavigationBar />
-      </div>
+      </section>
 
       <div className="">
         <div className={styles.heroSection}>
-          <div className={styles.textContainer}>
+          <div className={`container ${styles.textContainer}`}>
             <h3 className={`${styles.heroText}`}>
               Getting you right on track to complete your CME requirements
             </h3>
