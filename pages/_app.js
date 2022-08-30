@@ -5,9 +5,9 @@ import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
 import { createLogger } from "redux-logger";
-import appReducer from '../src/store/reducers';
+import appReducer from "../src/store/reducers";
 
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const logger = createLogger();
@@ -22,8 +22,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Provider store={store}>
-      <Component {...pageProps} />
-    </Provider>
+        <Component {...pageProps} />
+      </Provider>
     </div>
   );
 }

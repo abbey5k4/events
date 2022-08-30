@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import FeaturedCard from "../../components/FeaturedCard";
 import UpcomingCard from "../../components/UpcomingCards";
 import Footer from "../../constants/Footer";
+import NavigationBar from "../../constants/Navigation";
 import styles from "./index.module.css";
 
 // function SampleNextArrow(props) {
@@ -86,6 +87,11 @@ const LandingPageContainer = () => {
 
   return (
     <div>
+        {/* <Nav /> */}
+        <div className="container">
+           <NavigationBar /> 
+        </div>
+        
       <div className="">
         <div className={styles.heroSection}>
           <div className={styles.textContainer}>
@@ -129,31 +135,6 @@ const LandingPageContainer = () => {
         </Slider>
         <hr />
       </div>
-
-      {/* <Slider {...settings} autoplay autoplaySpeed={8000}>
-        <div className="container mt-5">
-          <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-              <FeaturedCard />
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-              <FeaturedCard />
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-              <FeaturedCard />
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-              <FeaturedCard />
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-              <FeaturedCard />
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-              <FeaturedCard />
-            </div>
-          </div>
-        </div>
-      </Slider> */}
 
       <div className="container mt-5">
         <h5 className="fw-bold">Upcoming Events</h5>
