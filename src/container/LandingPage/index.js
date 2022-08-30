@@ -6,31 +6,9 @@ import Footer from "../../constants/Footer";
 import NavigationBar from "../../constants/Navigation";
 import styles from "./index.module.css";
 
-// function SampleNextArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{ ...style, display: "block", color: "#ff911c" }}
-//       onClick={onClick}
-//     />
-//   );
-// }
-
-// function SamplePrevArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{ ...style, display: "block", color: "#ff911c" }}
-//       onClick={onClick}
-//     />
-//   );
-// }
-
 const LandingPageContainer = () => {
   var settings = {
-    dots: false,
+    dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 4,
@@ -63,35 +41,13 @@ const LandingPageContainer = () => {
       },
     ],
   };
-  //   const settings = {
-  //     dots: false,
-  //     infinite: true,
-  //     speed: 1500,
-  //     slidesToShow: 2,
-  //     slidesToScroll: 1,
-  //     arrows: true,
-  //     nextArrow: <SampleNextArrow />,
-  //     prevArrow: <SamplePrevArrow />,
-  //     responsive: [
-  //       {
-  //         breakpoint: 880,
-  //         settings: {
-  //           slidesToShow: 1,
-  //           slidesToScroll: 1,
-  //           initialSlide: 1,
-  //           arrows: false,
-  //         },
-  //       },
-  //     ],
-  //   };
 
   return (
     <div>
-        {/* <Nav /> */}
-        <div className="container">
-           <NavigationBar /> 
-        </div>
-        
+      <div className="container">
+        <NavigationBar />
+      </div>
+
       <div className="">
         <div className={styles.heroSection}>
           <div className={styles.textContainer}>
@@ -103,36 +59,39 @@ const LandingPageContainer = () => {
       </div>
 
       <div className="container mt-5">
-        <h5 className="fw-bold">Featured Events</h5>
-        <Slider {...settings}>
-          <div>
-            <FeaturedCard />
-          </div>
-          <div>
-            <FeaturedCard />
-          </div>
-          <div>
-            <FeaturedCard />
-          </div>
-          <div>
-            <FeaturedCard />
-          </div>
-          <div>
-            <FeaturedCard />
-          </div>
-          <div>
-            <FeaturedCard />
-          </div>
-          <div>
-            <FeaturedCard />
-          </div>
-          <div>
-            <FeaturedCard />
-          </div>
-          <div>
-            <FeaturedCard />
-          </div>
-        </Slider>
+        <div className="pb-4">
+          <h5 className="fw-bold">Featured Events</h5>
+          <Slider {...settings}>
+            <div>
+              <FeaturedCard />
+            </div>
+            <div>
+              <FeaturedCard />
+            </div>
+            <div>
+              <FeaturedCard />
+            </div>
+            <div>
+              <FeaturedCard />
+            </div>
+            <div>
+              <FeaturedCard />
+            </div>
+            <div>
+              <FeaturedCard />
+            </div>
+            <div>
+              <FeaturedCard />
+            </div>
+            <div>
+              <FeaturedCard />
+            </div>
+            <div>
+              <FeaturedCard />
+            </div>
+          </Slider>
+        </div>
+
         <hr />
       </div>
 
