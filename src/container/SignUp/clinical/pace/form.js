@@ -12,7 +12,7 @@ const Form = ({ switchToInterest }) => {
         <div className="row mt-5">
           <div className="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>Title</label> <span className={styles.labelSpanStyle}>*</span>
+              <label className={styles.labelStyle}>TITLE</label> <span className={styles.labelSpanStyle}>*</span>
               <select
                 className="form-select form-select-lg"
                 aria-label="Default select example"
@@ -25,7 +25,7 @@ const Form = ({ switchToInterest }) => {
           </div>
           <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>First Name</label>
+              <label className={styles.labelStyle}>FIRST NAME</label>
               <input
                 className="form-control form-control-lg"
                 type="text"
@@ -36,7 +36,7 @@ const Form = ({ switchToInterest }) => {
           </div>
           <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>Last Name</label>
+              <label className={styles.labelStyle}>LAST NAME</label>
               <input
                 className="form-control form-control-lg"
                 type="text"
@@ -52,7 +52,6 @@ const Form = ({ switchToInterest }) => {
                 className="form-select form-select-lg"
                 aria-label="Default select example"
               >
-                <option value="0">Select your Specialty</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -61,7 +60,7 @@ const Form = ({ switchToInterest }) => {
           </div>
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>Date of birth</label>
+              <label className={styles.labelStyle}>DATE OF BIRTH</label>
               <input
                 className="form-control form-control-lg"
                 type="date"
@@ -72,7 +71,7 @@ const Form = ({ switchToInterest }) => {
           </div>
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>Phone</label>
+              <label className={styles.labelStyle}>PHONE</label>
               <input
                 className="form-control form-control-lg"
                 type="phone"
@@ -83,7 +82,7 @@ const Form = ({ switchToInterest }) => {
           </div>
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>Website</label>
+              <label className={styles.labelStyle}>WEBSITE</label>
               <input
                 className="form-control form-control-lg"
                 type="text"
@@ -94,7 +93,7 @@ const Form = ({ switchToInterest }) => {
           </div>
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>Twitter</label>
+              <label className={styles.labelStyle}>TWITTER</label>
               <input
                 className="form-control form-control-lg"
                 type="text"
@@ -106,7 +105,7 @@ const Form = ({ switchToInterest }) => {
 
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>LinkedIn</label>
+              <label className={styles.labelStyle}>LINKEDIN</label>
               <input
                 className="form-control form-control-lg"
                 type="text"
@@ -118,7 +117,7 @@ const Form = ({ switchToInterest }) => {
 
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
           <div className="form-group">
-            <label className={styles.labelStyle}>Hospital Address</label><span className={styles.labelSpanStyle}>*</span>
+            <label className={styles.labelStyle}>HOSPITAL ADDRESS</label><span className={styles.labelSpanStyle}>*</span>
             <input
               className="form-control form-control-lg"
               type="text"
@@ -130,7 +129,7 @@ const Form = ({ switchToInterest }) => {
 
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>Create password</label><span className={styles.labelSpanStyle}>*</span>
+              <label className={styles.labelStyle}>CREATE PASSWORD</label><span className={styles.labelSpanStyle}>*</span>
               <input
                 className="form-control form-control-lg"
                 type="text"
@@ -142,7 +141,7 @@ const Form = ({ switchToInterest }) => {
 
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>Confirm password</label><span className={styles.labelSpanStyle}>*</span>
+              <label className={styles.labelStyle}>CONFIRM PASSWORD</label><span className={styles.labelSpanStyle}>*</span>
               <input
                 className="form-control form-control-lg"
                 type="text"
@@ -156,7 +155,7 @@ const Form = ({ switchToInterest }) => {
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-3">
             
             <button className={styles.nextBtn} onClick={switchToInterest}>
-              Next
+              NEXT
             </button>
           </div>
         </div>
