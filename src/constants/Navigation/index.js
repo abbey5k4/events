@@ -5,7 +5,7 @@ import { CgMenuRightAlt, CgClose } from "react-icons/cg";
 import Image from "next/image";
 
 
-const NavigationBar = () => {
+const NavigationBar = ({ displayMode }) => {
   const [mobState, setMobState] = React.useState(false);
   const handleMobileNav = () => {
     setMobState(() => !mobState);
@@ -19,8 +19,8 @@ const NavigationBar = () => {
         type="text"
         name="search"
         id=""
-        placeholder="Search..."
-        className={styles.inputField}
+        placeholder="Search for events"
+        className={` d-${displayMode} ${styles.inputField}`}
       />
       <nav className={mobState ? styles.add : styles.remove}>
         <ul className={styles.listList}>
@@ -45,7 +45,7 @@ const NavigationBar = () => {
             </Link>
           </li>
           <li className={styles.signUp}>
-            <Link href="/sign-up">
+            <Link href="/signUp/clinical">
               <a>SIGN UP</a>
             </Link>
           </li>

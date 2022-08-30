@@ -45,7 +45,7 @@ const LandingPageContainer = () => {
   return (
     <div>
       <section className="container">
-        <NavigationBar />
+        <NavigationBar displayMode="nones"/>
       </section>
 
       <div className="">

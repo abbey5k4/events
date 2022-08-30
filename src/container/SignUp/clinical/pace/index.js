@@ -33,7 +33,6 @@ const Pace = () => {
           {/* <Image src="/assets/pxl.jpg" alt="imgg" width={480} height={1400} /> */}
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

@@ -6,6 +6,7 @@ import { signUpAction } from "../../../store/actions";
 import Footer from "../../../constants/Footer";
 import { FcGoogle } from "react-icons/fc";
 import { GrLinkedinOption, GrFacebookOption } from "react-icons/gr";
+import NavigationBar from "../../../constants/Navigation";
 
 const Clinic = () => {
   const dispatch = useDispatch();
@@ -16,7 +17,6 @@ const Clinic = () => {
 
   return (
     <div>
-      {/* <Nav displayMode="hidden" /> */}
       <div className={`${styles.bgImgDiv} `}>
         <div className={`card ${styles.formCard}`}>
           <div className={styles.textDiv}>
@@ -123,7 +123,6 @@ const Clinic = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
