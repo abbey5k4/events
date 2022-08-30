@@ -136,6 +136,10 @@ label.labelStyle, .labelSpanStyle {
     border-radius: 25px;
     padding: 10px 30px;
   }
+
+  .styleTop {
+    border-top: 1px solid #3e3e3e;
+  }
 @media screen and (max-width: 500px) {
   .bgImgDiv {
     padding: 10px;

@@ -9,10 +9,11 @@ const Form = ({ switchToInterest }) => {
           <h1>Set up your</h1>
           <h1>Pace Account</h1>
         </div>
-        <div className="row mt-5">
+        <div className='row mt-5'>
           <div className="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>TITLE</label> <span className={styles.labelSpanStyle}>*</span>
+              <label className={styles.labelStyle}>TITLE</label>{" "}
+              <span className={styles.labelSpanStyle}>*</span>
               <select
                 className="form-select form-select-lg"
                 aria-label="Default select example"
@@ -116,20 +117,22 @@ const Form = ({ switchToInterest }) => {
           </div>
 
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
-          <div className="form-group">
-            <label className={styles.labelStyle}>HOSPITAL ADDRESS</label><span className={styles.labelSpanStyle}>*</span>
-            <input
-              className="form-control form-control-lg"
-              type="text"
-              placeholder="Enter your address"
-              aria-label="default input example"
-            />
+            <div className="form-group">
+              <label className={styles.labelStyle}>HOSPITAL ADDRESS</label>
+              <span className={styles.labelSpanStyle}>*</span>
+              <input
+                className="form-control form-control-lg"
+                type="text"
+                placeholder="Enter your address"
+                aria-label="default input example"
+              />
+            </div>
           </div>
-        </div>
 
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>CREATE PASSWORD</label><span className={styles.labelSpanStyle}>*</span>
+              <label className={styles.labelStyle}>CREATE PASSWORD</label>
+              <span className={styles.labelSpanStyle}>*</span>
               <input
                 className="form-control form-control-lg"
                 type="text"
@@ -141,7 +144,8 @@ const Form = ({ switchToInterest }) => {
 
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
             <div className="form-group">
-              <label className={styles.labelStyle}>CONFIRM PASSWORD</label><span className={styles.labelSpanStyle}>*</span>
+              <label className={styles.labelStyle}>CONFIRM PASSWORD</label>
+              <span className={styles.labelSpanStyle}>*</span>
               <input
                 className="form-control form-control-lg"
                 type="text"
@@ -153,7 +157,6 @@ const Form = ({ switchToInterest }) => {
         </div>
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-3">
-            
             <button className={styles.nextBtn} onClick={switchToInterest}>
               NEXT
             </button>
