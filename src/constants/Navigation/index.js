@@ -3,8 +3,10 @@ import Link from "next/link";
 import styles from "./index.module.css";
 import { CgMenuRightAlt, CgClose } from "react-icons/cg";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const NavigationBar = ({ displayMode }) => {
+    const router = useRouter();
   const [mobState, setMobState] = React.useState(false);
   const handleMobileNav = () => {
     setMobState(() => !mobState);
@@ -12,7 +14,7 @@ const NavigationBar = ({ displayMode }) => {
   return (
     <div className="container-fluid">
       <header className={styles.header}>
-        <div className={styles.logo}>
+        <div className={styles.logo} onClick={() => router.push("/")}>
           <Image
             src="/assets/path2.png"
             alt="company logo"
@@ -35,12 +37,12 @@ const NavigationBar = ({ displayMode }) => {
               </Link>
             </li>
             <li>
-              <Link href="/about">
+              <Link href="/">
                 <a>ABOUT US</a>
               </Link>
             </li>
             <li>
-              <Link href="/contact">
+              <Link href="/">
                 <a>CONTACT US</a>
               </Link>
             </li>

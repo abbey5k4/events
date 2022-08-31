@@ -1,0 +1,174 @@
+.bgImgDiv {
+    height: 90vh;
+    background: url("/assets/pxl.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-left: 200px;
+  }
+  
+  .formCard {
+    width: 30%;
+  }
+  
+  .textDiv {
+    padding: 20px;
+  }
+  
+  .textDiv h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #3e3e3e;
+  }
+  
+  .textDiv p {
+    color: #3e3e3e;
+    font-size: 12px;
+  }
+  
+  .textDiv a {
+    font-size: 12px;
+    color: #005cd8;
+    margin-left: 5px;
+  }
+  
+  .activeBtn {
+    background-color: #005cd8;
+    border: 1px solid #005cd8;
+    border-radius: 10px;
+    padding: 5px 20px 40px 20px;
+    color: #fff;
+    text-align: center;
+    z-index: 100;
+    position: relative;
+  }
+  
+  .activeBtns {
+    background-color: #005cd8;
+    border: 1px solid #005cd8;
+    border-radius: 10px;
+    padding: 5px 20px 40px 20px;
+    color: #fff;
+    text-align: center;
+    z-index: 100;
+    position: relative;
+    margin-left: 20px;
+  }
+  
+  .cardBodyy {
+    margin-top: -82px !important;
+    background: #eef3fb;
+    z-index: 999;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .btnLeft {
+    margin-left: 20px;
+    margin-top: -40px;
+    border: none;
+    background-color: transparent;
+    color: black;
+  }
+  
+  .pFooter {
+    width: 70%;
+    color: #3e3e3e;
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  
+  .social {
+    color: #3e3e3e;
+    font-size: 12px;
+  }
+  
+  .iconContainer {
+    padding: 6px 10px;
+    border: 1px solid #005cd8;
+    border-radius: 50%;
+  }
+  
+  .iconContainer:not(:first-child) {
+    margin-left: 10px;
+    color: #005cd8;
+  }
+  
+  .btnP {
+    padding-right: 10px !important;
+  }
+  
+  .paceHeader, .intHeader {
+    width: 50%;
+  }
+  
+  /* .intHeader {
+  
+  } */
+  
+  .tcHeader {
+      width: 100%;
+    }
+  
+  .bgSize {
+    width: 80%;
+    padding-top: 50px !important;
+  }
+  
+  .paceHeader h1, .tcHeader h1 {
+    color: #005cd8;
+    font-weight: bold;
+    /* font-size: 32px; */
+  }
+  
+  .paceBg {
+    background: url("/assets/pxl.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .centerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label.labelStyle,
+  .labelSpanStyle {
+    color: #005cd8;
+  }
+  
+  .nextBtn {
+    background-color: #005cd8 !important ;
+    border: 1px solid #005cd8;
+    outline: 0;
+    border-radius: 25px;
+    padding: 10px 30px;
+  }
+  
+  .styleTop {
+    border-top: 1px solid #3e3e3e;
+  }
+  @media screen and (max-width: 500px) {
+    .bgImgDiv {
+      padding: 10px;
+    }
+  
+    .formCard {
+      width: 100%;
+    }
+  
+    .paceHeader {
+      width: 70%;
+    }
+  
+    .bgSize {
+      width: 100%;
+      padding-top: 20px !important;
+    }
+  
+    .paceBg {
+      display: none;
+    }
+  }
+  
