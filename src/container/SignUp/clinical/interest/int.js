@@ -18,7 +18,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault1"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Allergy &amp; Immunology
               </label>
             </div>
@@ -30,7 +30,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault2"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Anesthesiology
               </label>
             </div>
@@ -42,7 +42,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault3"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Dermatology
               </label>
             </div>
@@ -54,7 +54,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault4"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Diagnostic Radiology
               </label>
             </div>
@@ -66,7 +66,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault5"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Emergency Medicine
               </label>
             </div>
@@ -78,7 +78,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault6"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Family Medicine
               </label>
             </div>
@@ -90,7 +90,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault7"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Internal Medicine
               </label>
             </div>
@@ -102,7 +102,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault8"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Leadership and Management in Medicine
               </label>
             </div>
@@ -114,7 +114,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault9"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Medical Genetics
               </label>
             </div>
@@ -126,7 +126,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault10"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Neurology Nuclear
               </label>
             </div>
@@ -138,7 +138,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault11"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Medicine Obstetrics and Gynecology
               </label>
             </div>
@@ -150,7 +150,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault12"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Ophthalmology
               </label>
             </div>
@@ -162,7 +162,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault13"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Pathology
               </label>
             </div>
@@ -174,7 +174,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault14"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Pharmacology
               </label>
             </div>
@@ -186,7 +186,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault15"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Physical Medicine &amp; Rehabilitation
               </label>
             </div>
@@ -198,7 +198,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault16"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Preventive Medicine
               </label>
             </div>
@@ -210,7 +210,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault17"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Psychiatry Radiation
               </label>
             </div>
@@ -222,7 +222,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault18"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Radiation Oncology
               </label>
             </div>
@@ -234,7 +234,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault19"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Surgery
               </label>
             </div>
@@ -246,7 +246,7 @@ const InterestSec = ({ switchToTC }) => {
                 value=""
                 id="flexCheckDefault20"
               />
-              <label className="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Urology
               </label>
             </div>
