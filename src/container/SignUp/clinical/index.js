@@ -34,7 +34,7 @@ const Clinic = () => {
           </div>
           <div className={`card-body ${styles.cardBodyy}`}>
             <div className="text-center container">
-              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
                 <div className="form-group">
                   <label>Title</label>
                   <select
