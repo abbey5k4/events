@@ -11,7 +11,7 @@ const InterestSec = ({ switchToTC }) => {
         <div className="my-3">
           <p className="text-primary">Choose as many as you want</p>
           <div>
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -23,7 +23,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -35,7 +35,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -47,7 +47,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -59,7 +59,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -71,7 +71,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -83,7 +83,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -95,7 +95,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -107,7 +107,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -119,7 +119,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -131,7 +131,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -143,7 +143,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -155,7 +155,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -167,7 +167,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -179,7 +179,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -191,7 +191,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -203,7 +203,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -215,7 +215,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -227,7 +227,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
@@ -239,7 +239,7 @@ const InterestSec = ({ switchToTC }) => {
               </label>
             </div>
 
-            <div class="form-check">
+            <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
