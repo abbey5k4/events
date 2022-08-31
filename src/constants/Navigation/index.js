@@ -45,7 +45,7 @@ const NavigationBar = ({ displayMode }) => {
               </Link>
             </li>
             <li className={styles.signIn}>
-              <Link href="/sign-in">
+              <Link href="/signIn/clinical">
                 <a>SIGN IN</a>
               </Link>
             </li>
