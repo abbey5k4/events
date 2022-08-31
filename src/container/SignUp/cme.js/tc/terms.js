@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../index.module.css"
+import styles from "../../clinical/index.module.css"
 
 const TermsAndCond = ({ switchToCreate }) => {
   return (
