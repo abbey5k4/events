@@ -111,6 +111,9 @@ const LandingPageContainer = () => {
             <UpcomingCard />
           </div>
         </div>
+        <div className="text-center pb-4">
+            <button className={styles.loadMoreBtn}>Load more</button>
+        </div>
       </div>
 
       <Footer />
