@@ -7,12 +7,8 @@ import styles from "../index.module.css";
 const Pace = () => {
   const dispatch = useDispatch();
 
-  const switchToCreate = () => {
-    dispatch(signUpAction.setSignUpLevel("create"));
-  };
-
-  const switchToInterest = () => {
-    dispatch(signUpAction.setSignUpLevel("interest"));
+  const switchToTC = () => {
+    dispatch(signUpAction.setSignUpLevel("tc"));
   };
   return (
     <div>
@@ -20,8 +16,7 @@ const Pace = () => {
         <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
           <div className="container">
             <Form
-              switchToCreate={switchToCreate}
-              switchToInterest={switchToInterest}
+              switchToTC={switchToTC}
             />
           </div>
         </div>

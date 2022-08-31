@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../index.module.css"
 
-const TermsAndC = ({ switchToInterest }) => {
+const TermsAndCond = ({ switchToCreate }) => {
   return (
     <div  className={`container ${styles.centerDiv}`}>
       <div className={styles.bgSize}>
@@ -50,7 +50,7 @@ const TermsAndC = ({ switchToInterest }) => {
             dolor sit amet.
           </p>
         </div>
-        <button className={styles.nextBtn} onClick={switchToInterest}>
+        <button className={styles.nextBtn} onClick={switchToCreate}>
           ACCEPT
         </button>
       </div>
@@ -58,4 +58,4 @@ const TermsAndC = ({ switchToInterest }) => {
   );
 };
 
-export default TermsAndC;
+export default TermsAndCond;

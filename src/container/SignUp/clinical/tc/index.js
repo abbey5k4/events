@@ -7,7 +7,7 @@ import TermsAndC from "./terms";
 const TermsAndConditions = () => {
   const dispatch = useDispatch();
 
-  const switchToCreate = () => {
+  const switchToInterest = () => {
     dispatch(signUpAction.setSignUpLevel("interest"));
   };
 
@@ -16,7 +16,7 @@ const TermsAndConditions = () => {
       <div className={`row ${styles.styleTop}`}>
         <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
           <div className="container">
-            <TermsAndC switchToCreate={switchToCreate} />
+            <TermsAndC switchToInterest={switchToInterest} />
           </div>
         </div>
         <div

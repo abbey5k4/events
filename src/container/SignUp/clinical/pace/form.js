@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../index.module.css";
 
-const Form = ({ switchToInterest }) => {
+const Form = ({ switchToTC }) => {
   return (
     <div className={`container ${styles.centerDiv}`}>
       <div className={styles.bgSize}>
@@ -157,7 +157,7 @@ const Form = ({ switchToInterest }) => {
         </div>
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-3">
-            <button className={styles.nextBtn} onClick={switchToInterest}>
+            <button className={styles.nextBtn} onClick={switchToTC}>
               NEXT
             </button>
           </div>
