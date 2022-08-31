@@ -13,240 +13,240 @@ const InterestSec = ({ switchToTC }) => {
           <div>
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault1"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Allergy &amp; Immunology
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault2"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Anesthesiology
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault3"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Dermatology
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault4"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Diagnostic Radiology
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault5"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Emergency Medicine
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault6"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Family Medicine
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault7"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Internal Medicine
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault8"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Leadership and Management in Medicine
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault9"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Medical Genetics
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault10"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Neurology Nuclear
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault11"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Medicine Obstetrics and Gynecology
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault12"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Ophthalmology
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault13"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Pathology
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault14"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Pharmacology
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault15"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Physical Medicine &amp; Rehabilitation
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault16"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Preventive Medicine
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault17"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Psychiatry Radiation
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault18"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Radiation Oncology
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault19"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Surgery
               </label>
             </div>
 
             <div class="form-check">
               <input
-                class="form-check-input"
+                className="form-check-input"
                 type="checkbox"
                 value=""
-                id="flexCheckDefault"
+                id="flexCheckDefault20"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label className="form-check-label" for="flexCheckDefault">
                 Urology
               </label>
             </div>

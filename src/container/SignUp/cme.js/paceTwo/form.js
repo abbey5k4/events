@@ -78,7 +78,7 @@ const FormTwo = ({ switchToTC }) => {
             <div className="form-group">
               <label className={styles.labelStyle}>BRIEF BIO</label>
               <span className={styles.labelSpanStyle}>*</span>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter a brief bio"></textarea>
+              <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter a brief bio"></textarea>
             </div>
           </div>
           
