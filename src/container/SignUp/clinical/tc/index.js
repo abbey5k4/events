@@ -8,7 +8,7 @@ const TermsAndConditions = () => {
   const dispatch = useDispatch();
 
   const switchToInterest = () => {
-    dispatch(signUpAction.setSignUpLevel("interest"));
+    dispatch(signUpAction.setSignUpLevel("create"));
   };
 
   return (

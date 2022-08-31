@@ -8,7 +8,7 @@ const Interest = () => {
   const dispatch = useDispatch();
 
   const switchToTC = () => {
-    dispatch(signUpAction.setSignUpLevel("create"));
+    dispatch(signUpAction.setSignUpLevel("tc"));
   };
 
   return (

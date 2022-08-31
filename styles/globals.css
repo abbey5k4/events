@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -13,6 +13,8 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -68,8 +70,6 @@ a {
 .fa-bars {
   color: #0066f5;
 }
-
-
 
 @media screen and (max-width: 960px) {
   .NavbarItems {
@@ -212,20 +212,19 @@ a {
 }
 .form-select:hover,
 .form-select:active,
-textarea:hover, 
-input:hover, 
-textarea:active, 
-input:active, 
-textarea:focus, 
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
 input:focus,
 button:focus,
 button:active,
 button:hover,
 label:focus,
 .btn:active,
-.btn.active
-{
-    outline:0px !important;
-    -webkit-appearance:none;
-    box-shadow: none !important;
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
 }

@@ -8,7 +8,7 @@ const Pace = () => {
   const dispatch = useDispatch();
 
   const switchToTC = () => {
-    dispatch(signUpAction.setSignUpLevel("tc"));
+    dispatch(signUpAction.setSignUpLevel("interest"));
   };
   return (
     <div>
