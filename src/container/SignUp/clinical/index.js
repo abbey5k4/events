@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 import { signUpAction } from "../../../store/actions";
 import { FcGoogle } from "react-icons/fc";
 import { GrLinkedinOption, GrFacebookOption } from "react-icons/gr";
+import SignUpForm from "./form/signUpForm";
 
 const Clinic = () => {
   const dispatch = useDispatch();
@@ -16,7 +17,10 @@ const Clinic = () => {
   return (
     <div>
       <div className={`${styles.bgImgDiv} `}>
-        <div className={`card ${styles.formCard}`}>
+        <div>
+            <SignUpForm switchToSetUp={switchToSetUp} />
+        </div>
+        {/* <div className={`card ${styles.formCard}`}>
           <div className={styles.textDiv}>
             <h3>Create an account</h3>
             <div className="d-flex align-items-center">
@@ -24,7 +28,7 @@ const Clinic = () => {
               <Link href="/signIn/clinical">Log in</Link>
             </div>
             <div className="py-4">
-              <div className="d-flex justify-content-center align-items-center">
+              <div className="d-flex justify-content-between align-items-center">
                 <button className={styles.activeBtn}>Clinical</button>
                 <Link href="/signUp/cme">
                   <button className={styles.btnLeft}>CME Organizer</button>
@@ -33,10 +37,9 @@ const Clinic = () => {
             </div>
           </div>
           <div className={`card-body ${styles.cardBodyy}`}>
-            <div className="text-center container">
+            <div className="text-center">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
                 <div className="form-group">
-                  <label>Title</label>
                   <select
                     className="form-select"
                     aria-label="Default select example"
@@ -119,7 +122,7 @@ const Clinic = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
