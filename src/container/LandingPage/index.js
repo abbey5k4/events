@@ -6,6 +6,28 @@ import Footer from "../../constants/Footer";
 import NavigationBar from "../../constants/Navigation";
 import styles from "./index.module.css";
 
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "transparent" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block" }}
+      onClick={onClick}
+    ></div>
+  );
+}
+
 const LandingPageContainer = () => {
   var settings = {
     dots: true,
@@ -14,6 +36,8 @@ const LandingPageContainer = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 4,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -45,7 +69,7 @@ const LandingPageContainer = () => {
   return (
     <div>
       <section className="container">
-        <NavigationBar displayMode="nones"/>
+        <NavigationBar displayMode="nones" />
       </section>
 
       <div className="">
@@ -112,7 +136,7 @@ const LandingPageContainer = () => {
           </div>
         </div>
         <div className="text-center pb-4">
-            <button className={styles.loadMoreBtn}>Load more</button>
+          <button className={styles.loadMoreBtn}>Load more</button>
         </div>
       </div>
 

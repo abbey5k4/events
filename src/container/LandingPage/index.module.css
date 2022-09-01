@@ -9,7 +9,7 @@
   height: 60vh;
 }
 
-.textContainer h3{
+.textContainer h3 {
   width: 50%;
   /* line-height: 70px; */
 }
@@ -23,29 +23,15 @@
 }
 
 .loadMoreBtn {
-    background-color: #005cd8 !important ;
-    border: 1px solid #005cd8;
-    outline: 0;
-    border-radius: 25px;
-    padding: 10px 30px;
-  }
-
-@media screen and (max-width: 500px) {
-  .textContainer h3{
-    width: 90%;
-  }
-  .heroText {
-    font-size: 32px;
-    font-weight: bolder;
-    text-align: left;
-    color: white;
-    padding-top: 120px;
-    padding-left: 30px;
-  }
+  background-color: #005cd8 !important ;
+  border: 1px solid #005cd8;
+  outline: 0;
+  border-radius: 25px;
+  padding: 10px 30px;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 600px) {
-  .textContainer h3{
+  .textContainer h3 {
     width: 50%;
   }
   .heroText {
@@ -55,5 +41,8 @@
     color: white;
     padding-top: 150px;
     padding-left: 30px;
+  }
+  .slick-slide {
+    padding: 20px;
   }
 }

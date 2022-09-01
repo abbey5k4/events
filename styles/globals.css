@@ -200,6 +200,14 @@ li {
     margin: 10px auto;
     width: 200px;
   }
+
+  .slick-next {
+    right: -8px !important;
+  }
+  .slick-prev {
+    left: -8px !important;
+    color: #0066f5 !important;
+  }
 }
 
 a {
@@ -227,4 +235,7 @@ label:focus,
   outline: 0px !important;
   -webkit-appearance: none;
   box-shadow: none !important;
+}
+.slick-prev, .slick-next  {
+  background: #0066f5 !important;
 }
