@@ -34,15 +34,25 @@
   .textContainer h3 {
     width: 50%;
   }
-  .heroText {
+
+  .slick-slide {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .heroText {
     font-size: 32px;
     font-weight: bolder;
     text-align: left;
     color: white;
     padding-top: 150px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
+    line-height: 45px;
   }
-  .slick-slide {
-    padding: 20px;
+
+  .textContainer h3 {
+    width: 90%;
   }
 }
+  
