@@ -1,17 +1,17 @@
 .cardHolder {
   background-color: #fff;
-  width: 40%;
+  width: 33%;
   border-radius: 30px;
 }
 
 .cardHolderTwo {
   padding-top: 30px;
-  padding-left: 70px;
+  padding-left: 60px;
   padding-right: 150px;
 }
 
 .contentDiv {
-  padding: 30px 100px 30px 70px;
+  padding: 30px 80px 30px 60px;
 }
 
 .flexButtonDivs {
@@ -41,7 +41,7 @@
 .secondDiv {
   width: 50%;
   text-align: center;
-  margin-left: 10px;
+  margin-left: 20px;
   padding-top: 10px;
 }
 
@@ -73,7 +73,9 @@
 .btnP {
   padding-right: 10px !important;
 }
-
+.headerP{
+    font-size: 13px;
+}
 .pFooter {
   width: 70%;
   color: #3e3e3e;

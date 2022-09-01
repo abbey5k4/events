@@ -10,8 +10,8 @@ const SignUpForm = ({ switchToSetUp }) => {
       <div className={styles.cardHolder}>
         <div className={styles.cardHolderTwo}>
           <div>
-            <h2>Create an account</h2>
-            <p className="mb-0">
+            <h3>Create an account</h3>
+            <p className={`mb-0 ${styles.headerP}`}>
               Already have an account? &nbsp;{" "}
               <span>
                 <Link href="/">Sign In</Link>
