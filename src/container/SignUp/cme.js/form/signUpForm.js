@@ -5,9 +5,8 @@ import { FcGoogle } from "react-icons/fc";
 import { GrLinkedinOption, GrFacebookOption } from "react-icons/gr";
 import { useRouter } from "next/router";
 
-
-const SignUpForm = ({ switchToSetUp }) => {
-    const router = useRouter();
+const SignUpFormCME = ({ switchToPaceTwo }) => {
+  const router = useRouter();
   return (
     <div>
       <div className={styles.cardHolder}>
@@ -21,10 +20,10 @@ const SignUpForm = ({ switchToSetUp }) => {
               </span>
             </p>
             <div className={styles.flexButtonDivs}>
-              <div className={styles.firstDiv}>
+              <div className={styles.firstDiv} onClick={() => router.push("/signUp/clinical")}>
                 <p className="mb-0">Clinician</p>
               </div>
-              <div className={styles.secondDiv} onClick={() => router.push("/signUp/cme")}>
+              <div className={styles.secondDiv}>
                 <p className="mb-0">CME Organizer</p>
               </div>
             </div>
@@ -32,33 +31,13 @@ const SignUpForm = ({ switchToSetUp }) => {
         </div>
         <div className={styles.grayBg}>
           <div className={styles.contentDiv}>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">
-              <div className="form-group">
-                <select
-                  className="form-select"
-                  aria-label="Default select example"
-                >
-                  <option value="0">Select your title</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-            </div>
+            
             <div className="form-group">
               <input
                 className="form-control my-2"
                 type="text"
-                placeholder="First Name"
-                aria-label="first input example"
-              />
-            </div>
-            <div className="form-group">
-              <input
-                className="form-control my-2"
-                type="text"
-                placeholder="Last Name"
-                aria-label="second input example"
+                placeholder="Organizer's name"
+                aria-label="organizer input example"
               />
             </div>
             <div className="form-group">
@@ -69,19 +48,11 @@ const SignUpForm = ({ switchToSetUp }) => {
                 aria-label="email input example"
               />
             </div>
-            <div className="form-group">
-              <input
-                className="form-control mt-2 mb-3"
-                type="password"
-                placeholder="Password"
-                aria-label="password input example"
-              />
-            </div>
             <div className="d-grid gap-2">
               <button
                 className="btn btn-primary rounded-pill"
                 type="button"
-                onClick={switchToSetUp}
+                onClick={switchToPaceTwo}
               >
                 CREATE ACCOUNT
               </button>
@@ -122,4 +93,4 @@ const SignUpForm = ({ switchToSetUp }) => {
   );
 };
 
-export default SignUpForm;
+export default SignUpFormCME;

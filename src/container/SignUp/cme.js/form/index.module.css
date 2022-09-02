@@ -7,7 +7,7 @@
 .cardHolderTwo {
   padding-top: 30px;
   padding-left: 60px;
-  padding-right: 150px;
+  padding-right: 90px;
 }
 
 .contentDiv {
@@ -20,8 +20,8 @@
   margin-top: 20px;
 }
 
-.firstDiv {
-  width: 50%;
+.secondDiv {
+  width: 60%;
   background-color: #005cd8;
   color: #fff;
   text-align: center;
@@ -38,8 +38,8 @@
   letter-spacing: 1px;
 }
 
-.secondDiv {
-  width: 50%;
+.firstDiv{
+  width: 40%;
   text-align: center;
   margin-left: 20px;
   padding-top: 10px;

@@ -5,6 +5,7 @@ import { signUpAction } from "../../../store/actions";
 import styles from "./index.module.css";
 import { FcGoogle } from "react-icons/fc";
 import { GrLinkedinOption, GrFacebookOption } from "react-icons/gr";
+import SignUpFormCME from "./form/signUpForm";
 
 const CMEContainer = () => {
 
@@ -17,7 +18,8 @@ const CMEContainer = () => {
   return (
     <div>
       <div className={`${styles.bgImgDiv} mt-18 p-30`}>
-        <div className={`card ${styles.formCard}`}>
+        <SignUpFormCME switchToPaceTwo={switchToPaceTwo} />
+        {/* <div className={`card ${styles.formCard}`}>
           <div className={styles.textDiv}>
             <h3>Create an account</h3>
             <div className="d-flex align-items-center">
@@ -85,7 +87,7 @@ const CMEContainer = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
