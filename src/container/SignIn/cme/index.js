@@ -3,13 +3,15 @@ import React from "react";
 import styles from "./index.module.css";
 import { FcGoogle } from "react-icons/fc";
 import { GrLinkedinOption, GrFacebookOption } from "react-icons/gr";
+import SignInFormCME from "./form/signUpForm";
 
 const CmeSignIn = () => {
 
   return (
     <div>
       <div className={`${styles.bgImgDiv} mt-18 p-30`}>
-        <div className={`card ${styles.formCard}`}>
+        <SignInFormCME />
+        {/* <div className={`card ${styles.formCard}`}>
           <div className={styles.textDiv}>
             <h3>Sign into Pace</h3>
             <div className="d-flex align-items-center">
@@ -81,7 +83,7 @@ const CmeSignIn = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

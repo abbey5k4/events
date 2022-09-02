@@ -17,7 +17,7 @@ const SignUpForm = ({ switchToSetUp }) => {
             <p className={`mb-0 ${styles.headerP}`}>
               Already have an account? &nbsp;{" "}
               <span>
-                <Link href="/">Sign In</Link>
+                <Link href="/signIn/clinical">Sign In</Link>
               </span>
             </p>
             <div className={styles.flexButtonDivs}>
